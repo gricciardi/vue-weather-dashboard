@@ -1,16 +1,16 @@
 # ⛅ WeatherNow – Vue 3 Weather Dashboard
 
 A minimalist weather dashboard built with Vue 3 Composition API, using live weather data from Open-Meteo.  
-Includes dark mode toggle, responsive design and clean component structure.
+Includes dark mode toggle, responsive design, location detection and 3-day forecast.
 
 ---
 
 ## 🚀 Features
 
-- 📡 Live weather from Open-Meteo API
+- 📡 Live current weather + 3-day forecast
+- 📍 Location (city/town) detection via reverse geocoding
 - ⚙️ Built with Vue 3 Composition API
 - 🌙 Dark mode toggle
-- 🧩 Reusable components (WeatherCard)
 - 📱 Mobile-friendly layout
 
 ---
@@ -19,18 +19,24 @@ Includes dark mode toggle, responsive design and clean component structure.
 
 - Vue 3
 - Vite
-- JavaScript
 - Open-Meteo API
+- Maps.co Reverse Geocoding API
 
 ---
 
 ## ▶️ Live Demo
 
-Coming soon…
+👉 [Live Site](https://funny-salmiakki-528b41.netlify.app)
 
 ---
 
-## 📦 Setup
+## 🖼 Preview
+
+![WeatherNow Screenshot](https://via.placeholder.com/1200x700?text=WeatherNow+Vue+App)
+
+---
+
+## 📦 Setup Instructions
 
 ```bash
 git clone https://github.com/gricciardi/vue-weather-dashboard.git
