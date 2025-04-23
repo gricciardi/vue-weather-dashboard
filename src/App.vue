@@ -9,7 +9,7 @@
     <WeatherCard :weather="current" />
 
     <h2>Next 3 Days</h2>
-    <div class="forecast-grid">
+    <div class="forecast-grid" v-if="forecast.length > 0">
       <div class="forecast" v-for="(day, i) in forecast.slice(1, 4)" :key="day.date">
         <p>{{ day.date }}</p>
         <p>🌡 {{ day.temp_min }}°C – {{ day.temp_max }}°C</p>
