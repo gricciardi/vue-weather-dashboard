@@ -32,7 +32,7 @@ Includes dark mode toggle, responsive design, location detection and 3-day forec
 
 ## 🖼 Preview
 
-![WeatherNow Screenshot](https://via.placeholder.com/1200x700?text=WeatherNow+Vue+App)
+![WeatherNow Screenshot](./weathernow.png)
 
 ---
 
