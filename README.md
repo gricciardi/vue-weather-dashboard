@@ -33,7 +33,7 @@ Coming soon…
 ## 📦 Setup
 
 ```bash
-git clone https://github.com/your-username/vue-weather-dashboard.git
+git clone https://github.com/gricciardi/vue-weather-dashboard.git
 cd vue-weather-dashboard
 npm install
 npm run dev
